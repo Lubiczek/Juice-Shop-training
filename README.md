@@ -3,10 +3,6 @@
 A repository focused on solving tasks related to pentesting the juice-shop website and documenting them.
 
 
-
-\## 🗂️ Folder Tree
-
-
 ## 📂 Folder Tree
 
 ###  SQL Injection
