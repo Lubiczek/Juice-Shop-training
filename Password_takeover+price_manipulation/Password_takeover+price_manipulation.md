@@ -1,14 +1,10 @@
-\# Password cracking + price manipulation
-
+# Password cracking + price manipulation
 
 
 As now i am in hold of knowledge that sql injection is working i can see what type of token other accounts have. I look for every email i could find in reviews on the site. For example.
 
 
-
-
-
-!\[Screenshot\_of\_jim's\_review](./images/jim\_rev.png)
+![Screenshot_of_jim's_review](./images/jim_rev.png)
 
 
 
@@ -20,7 +16,7 @@ I used the same sql injection trick as before to get inside his account
 
 
 
-!\[Screenshot\_of\_sql\_trick](./images/jim\_sql.png)
+![Screenshot_of_sql_trick](./images/jim_sql.png)
 
 
 
@@ -28,11 +24,11 @@ As i am now capable of looking for information about Jim i am scrolling through 
 
 
 
-!\[Info\_about\_jim's\_acc](./images/Info\_about\_Jim\_acc.png)
+![Info_about_jim's_acc](./images/Info_about_Jim_acc.png)
 
 
 
-Info i found: Jim's ID - 2, hash\_of\_password - e541ca7ecf72b8d1286474fc613e5e45 
+Info i found: Jim's ID - 2, hash_of_password - e541ca7ecf72b8d1286474fc613e5e45 
 
 
 
@@ -40,7 +36,7 @@ Thats a good info. Now i tried to crack Jim's password. With usage of hashes.com
 
 
 
-!\[Screenshot\_of\_Jim's\_password](./images/jim\_pass\_id\_2.png)
+![Screenshot_of_Jim's_password](./images/jim_pass_id_2.png)
 
 
 
@@ -54,19 +50,19 @@ I Stumbled upon several accounts that some couldnt crack so easily with hashes.c
 
 
 
-!\[Screenshot\_of\_bender](./images/benders\_pass\_id\_3.png)
+![Screenshot_of_bender](./images/benders_pass_id_3.png)
 
 
 
-!\[Screenshot\_of\_mcc](./images/mc\_safe\_search\_pass\_id\_8.png)
+![Screenshot_of_mcc](./images/mc_safe_search_pass_id_8.png)
 
 
 
-!\[Screenshot\_of\_admin\_pass\_id\_1](./images/admin\_pass\_id\_1.png)
+![Screenshot_of_admin_pass_id_1](./images/admin_pass_id_1.png)
 
 
 
-\# Price manipulation
+# Price manipulation
 
 
 
@@ -74,7 +70,7 @@ One of the core function of a site is "buying products". The prices varies a lot
 
 
 
-!\[Screenshot\_of\_acc\_acc](./images/acc\_acc.png)
+![Screenshot_of_acc_acc](./images/acc_acc.png)
 
 
 
@@ -82,17 +78,12 @@ I stumbled around accountant account. After using sql injection i saw that there
 
 
 
-!\[Screenshot\_of\_acc\_func](./images/acc\_func.png)
-
+![Screenshot_of_acc_func](./images/acc_func.png)
 
 
 Now i changed everything so it costs 0 value of currency.
 
-
-
-!\[Screenshot\_of\_value\_drop](./images/value\_drop.png)
-
-
+![Screenshot_of_value_drop](./images/value_drop.png)
 
 We can buy everything for 0 value of currency.
 
