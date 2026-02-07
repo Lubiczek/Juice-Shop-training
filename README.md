@@ -7,24 +7,12 @@ A repository focused on solving tasks related to pentesting the juice-shop websi
 \## 🗂️ Folder Tree
 
 
-
-
-
-
-
 .
-
-├── \[💉 admin\_takeover\_via\_sql\_injection](./admin\_takeover\_via\_sql\_injection)
-
-│   ├── \[📄 admin\_takeover.md](./admin\_takeover\_via\_sql\_injection/admin\_takeover.md) —
-
-│   └── \[📸 images](./admin\_takeover\_via\_sql\_injection/images)
-
+├── [💉 admin_takeover_via_sql_injection](./admin_takeover_via_sql_injection)
+│   ├── [📄 admin_takeover.md](./admin_takeover_via_sql_injection/admin_takeover.md)
+│   └── [📸 images](./admin_takeover_via_sql_injection/images) 
 │
-
-└── \[🔓 Password\_takeover+price\_manipulation](./Password\_takeover+price\_manipulation)
-
-&nbsp;   ├── \[📄 Password\_takeover+price\_manipulation.md](./Password\_takeover+price\_manipulation/Password\_takeover+price\_manipulation.md)
-
-&nbsp;   └── \[📸 images](./Password\_takeover+price\_manipulation/images)
+└── [🔓 Password_takeover+price_manipulation](./Password_takeover+price_manipulation)
+    ├── [📄 Password_takeover+price_manipulation.md](./Password_takeover+price_manipulation/Password_takeover+price_manipulation.md)
+    └── [📸 images](./Password_takeover+price_manipulation/images) 
 
